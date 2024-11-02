@@ -3,16 +3,18 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and TailWind, as well as back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and TailWind, as well as back-end technologies like Firebase, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `👋 Hi, I'm Ashburn Simon Noronha, a third-year Computer Science and Business Systems student at St. Joseph Engineering College. I'm passionate about leveraging data science and machine learning to solve complex problems. With a knack for data preprocessing and hands-on experience in building classification models, I'm constantly seeking ways to innovate in the field of tech.
+
+I'm particularly interested in AWS and cloud-based ML solutions, and I'm exploring impactful project ideas in domains like Fintech, Education, and Healthcare. Outside of academics, I actively participate in hackathons, where I enjoy creating innovative solutions to challenging real-world problems.`;
 
 export const EXPERIENCES = [
   {
     year: "OCT 2023 - DEC 2023",
     role: "Mobile Application Developer",
     company: "Cydra Tech",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    description: `During my internship at Cydra Tech as a Mobile Application Developer, I worked extensively with Flutter for front-end development and Firebase for backend integration. I contributed to building and refining mobile applications, focusing on delivering seamless user experiences and efficient data management. This experience allowed me to develop skills in cross-platform development and backend services, enhancing my ability to create scalable and responsive mobile solutions. Working alongside experienced developers, I gained insights into industry best practices and strengthened my problem-solving and debugging skills in a real-world setting.`,
     technologies: ["Flutter", "Firebase", "Figma", "Miro"],
   },
   // {
@@ -47,10 +49,10 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Turf Management App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "An application for managing turf booking system with the integration of firbase for the data storage and autentication.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
@@ -58,7 +60,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
     title: "Blogging Platform",
