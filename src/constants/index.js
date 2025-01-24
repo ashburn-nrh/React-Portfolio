@@ -1,13 +1,13 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and TailWind, as well as back-end technologies like Firebase, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `👋 Hi, I'm Ashburn Simon Noronha, a third-year Computer Science and Business Systems student at St. Joseph Engineering College. I'm passionate about leveraging data science and machine learning to solve complex problems. With a knack for data preprocessing and hands-on experience in building classification models, I'm constantly seeking ways to innovate in the field of tech.
+export const ABOUT_TEXT = `👋 Hi, I'm Ashburn Simon Noronha, a third-year Computer Science and Business Systems student at St. Joseph Engineering College. I'm passionate about crafting seamless and dynamic web applications that enhance user experiences. With a strong foundation in web development and hands-on experience in building intuitive user interfaces and efficient backends, I'm constantly exploring innovative ways to push the boundaries of web technologies.
 
-I'm particularly interested in AWS and cloud-based ML solutions, and I'm exploring impactful project ideas in domains like Fintech, Education, and Healthcare. Outside of academics, I actively participate in hackathons, where I enjoy creating innovative solutions to challenging real-world problems.`;
+I'm exploring impactful project ideas in domains like Fintech, Education, and Healthcare. Outside of academics, I actively participate in hackathons, where I enjoy creating innovative solutions to challenging real-world problems.`;
 
 export const EXPERIENCES = [
   {
@@ -42,18 +42,18 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Smart nutrition ",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Built a web app using machine learning to identify food allergens and provide AI-driven nutritional insights, tailored to user health profiles",
+    technologies: ["React", "Python", "MongoDB","FastAPI"],
   },
   {
     title: "Turf Management App",
     image: project2,
     description:
       "An application for managing turf booking system with the integration of firbase for the data storage and autentication.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["HTML", "TailwindCSS", "Firebase"],
   },
   {
     title: "Portfolio Website",
@@ -63,11 +63,11 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
-    title: "Blogging Platform",
+    title: "Free Flow - Mobile Application",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Crafted a Flutter mobile app for freelancers, empowering seamless project management, client interaction, and financial tracking via Firebase integration",
+    technologies: ["Firebase", "Flutter "],
   },
 ];
 
